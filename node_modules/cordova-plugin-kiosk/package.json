@@ -1,0 +1,53 @@
+{
+  "_from": "cordova-plugin-kiosk",
+  "_id": "cordova-plugin-kiosk@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha1-7EDdyRDRhytgnGwcWgcW7Q/SrlQ=",
+  "_location": "/cordova-plugin-kiosk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-kiosk",
+    "name": "cordova-plugin-kiosk",
+    "escapedName": "cordova-plugin-kiosk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-kiosk/-/cordova-plugin-kiosk-0.2.2.tgz",
+  "_shasum": "ec40ddc910d1872b609c6c1c5a0716ed0fd2ae54",
+  "_spec": "cordova-plugin-kiosk",
+  "_where": "/media/biasawae/DATA21/PLAYSTORE/sisfokol_cbt",
+  "bugs": {
+    "url": "https://github.com/babbellab/cordova-plugin-kiosk/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-kiosk",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Kiosk Mode Plugin",
+  "homepage": "https://github.com/babbellab/cordova-plugin-kiosk#readme",
+  "keywords": [
+    "cordova",
+    "launcher",
+    "homescreen",
+    "kiosk",
+    "kiosk mode"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-kiosk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babbellab/cordova-plugin-kiosk.git"
+  },
+  "version": "0.2.2"
+}

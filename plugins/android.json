@@ -1,0 +1,59 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "cordova-plugin-kiosk": {
+      "PACKAGE_NAME": "sisfokol.cbt.ujian"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "smk7smg.ujian.online"
+    }
+  }
+}

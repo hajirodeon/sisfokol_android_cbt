@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "CBT",
+  "short_name": "CBT",
+  "version": "sisfokol.cbt.ujian",
+  "description": "SISFOKOL CBT",
+  "author": "Agus Muhajir",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<title>SISFOKOL CBT</title>
+
+
+
+
+
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/number.js"></script>
+
+
+
+
+
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+
+
+	
+
+
+
+
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="kiosk.js"></script>
+
+
+
+
+<script>
+$(document).ready(function(){
+
+
+$(document).ajaxStart(function() 
+	{
+	$('#loading').show();
+	}).ajaxStop(function() 
+	{
+	$('#loading').hide();
+	});
+
+
+
+
+
+
+
+$("#isinya").load("https://192.168.1.100/sisfokol_cbt/android/i_akun_history.php?aksi=form");
+
+
+
+})
+
+
+
+
+
+</script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+
+#myfooter{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+  height: 4em;
+  background-color: #f5f5f5;
+  text-align: center;
+   width: 100%;
+   color: white;;
+
+}
+
+
+
+
+
+
+#myheader{
+   position: fixed;
+   left: 0;
+   top: 0;
+  height: 2em;
+  background-color: #f5f5f5;
+  text-align: center;
+   width: 100%;
+   color: white;
+	z-index:9999;
+
+}
+</style>
+
+
+
+
+
+</head>
+
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header>
+	    <div class="header">
+		<div class="container-fluid"  id="myheader">
+		    <div class="row">
+			<div class="col-md-12">
+
+
+				<table border="0" width="100%">
+				<tr>
+				<td width="30" align="left">
+				<a href="main.html">
+					<i class="fa fa-arrow-left" style="color:green"></i>
+				</a>
+
+
+				</td>
+
+				<td align="left">
+					<font color="black">HISTORY</font>
+
+				</td>
+				</tr>
+				</table>
+
+
+			</div>
+		    </div>
+		</div>
+	</header>
+	<!--================Header Menu Area =================-->
+
+
+<hr>
+
+
+	<div class="row">
+
+
+		<div class="col-md-12">
+
+
+			<div id="isinya">
+
+				<div id="loading" style="display:none">
+				<img src="img/progress-bar.gif" width="100" height="16">
+				</div>
+
+			</div>
+
+			
+		</div>
+	
+	
+
+	
+	
+	</div>
+
+
+
+
+
+
+	
+
+
+
+</body>
+
+</html>

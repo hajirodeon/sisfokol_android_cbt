@@ -1,0 +1,55 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "admin.admin.admin"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "panitia.jasa.umroh"
+    },
+    "cordova-plugin-kiosk": {
+      "PACKAGE_NAME": "sisfokol.cbt.ujian"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "admin.admin.admin"
+    }
+  }
+}
