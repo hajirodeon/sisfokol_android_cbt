@@ -49,7 +49,6 @@
 
 
 <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-<script type="text/javascript" charset="utf-8" src="kiosk.js"></script>
 
 
 
@@ -74,9 +73,9 @@ $(document).ajaxStart(function()
 
 
 
-$("#menu1").load("https://192.168.1.100/sisfokol_cbt/android/i_menu1.php");
-$("#isinya").load("https://192.168.1.100/sisfokol_cbt/android/i_main.php");
-$("#menu2").load("https://192.168.1.100/sisfokol_cbt/android/i_menu2.php");
+$("#menu1").load("http://192.168.1.100/sisfokol_cbt/android/i_menu1.php");
+$("#isinya").load("http://192.168.1.100/sisfokol_cbt/android/i_main.php");
+$("#menu2").load("http://192.168.1.100/sisfokol_cbt/android/i_menu2.php");
 
 
 
@@ -90,7 +89,7 @@ setInterval(poll,10000);
 
 function poll()
 	{
-	$("#isinya").load("https://192.168.1.100/sisfokol_cbt/android/i_main.php");
+	$("#isinya").load("http://192.168.1.100/sisfokol_cbt/android/i_main.php");
 
 	}
 

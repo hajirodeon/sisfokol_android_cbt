@@ -42,9 +42,6 @@
     },
     "cordova-plugin-screen-orientation": {
       "PACKAGE_NAME": "panitia.jasa.umroh"
-    },
-    "cordova-plugin-kiosk": {
-      "PACKAGE_NAME": "sisfokol.cbt.ujian"
     }
   },
   "dependent_plugins": {

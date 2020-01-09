@@ -402,14 +402,6 @@ module.exports = [
         "clobbers": [
             "cordova.plugins.screenorientation"
         ]
-    },
-    {
-        "file": "plugins/cordova-plugin-kiosk/kiosk.js",
-        "id": "cordova-plugin-kiosk.kioskPlugin",
-        "pluginId": "cordova-plugin-kiosk",
-        "clobbers": [
-            "window.KioskPlugin"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -427,8 +419,7 @@ module.exports.metadata =
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-device-orientation": "2.0.1",
-    "cordova-plugin-screen-orientation": "3.0.2",
-    "cordova-plugin-kiosk": "0.2"
+    "cordova-plugin-screen-orientation": "3.0.2"
 }
 // BOTTOM OF METADATA
 });

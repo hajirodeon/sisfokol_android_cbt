@@ -43,9 +43,6 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "smk7smg.ujian.online"
-    },
-    "cordova-plugin-kiosk": {
-      "PACKAGE_NAME": "sisfokol.cbt.ujian"
     }
   },
   "dependent_plugins": {

@@ -64,9 +64,6 @@
     },
     "cordova-plugin-screen-orientation": {
       "PACKAGE_NAME": "panitia.jasa.umroh"
-    },
-    "cordova-plugin-kiosk": {
-      "PACKAGE_NAME": "sisfokol.cbt.ujian"
     }
   },
   "dependent_plugins": {},
@@ -473,14 +470,6 @@
       "clobbers": [
         "cordova.plugins.screenorientation"
       ]
-    },
-    {
-      "file": "plugins/cordova-plugin-kiosk/kiosk.js",
-      "id": "cordova-plugin-kiosk.kioskPlugin",
-      "pluginId": "cordova-plugin-kiosk",
-      "clobbers": [
-        "window.KioskPlugin"
-      ]
     }
   ],
   "plugin_metadata": {
@@ -496,7 +485,6 @@
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-device-orientation": "2.0.1",
-    "cordova-plugin-screen-orientation": "3.0.2",
-    "cordova-plugin-kiosk": "0.2"
+    "cordova-plugin-screen-orientation": "3.0.2"
   }
 }

@@ -110,13 +110,5 @@
     },
     "is_top_level": false,
     "variables": {}
-  },
-  "cordova-plugin-kiosk": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-kiosk@^0.2.2"
-    },
-    "is_top_level": true,
-    "variables": {}
   }
 }
